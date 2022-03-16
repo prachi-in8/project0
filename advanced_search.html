@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="project0.css">
+        <style>
+            form > input
+            {
+                margin-block-start: 10px;
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: right;">
+            <a href="index.html">search</a>
+        </div>
+
+        <form action="https://www.google.com/search" class = "ad_bar" style="margin: 50px;">
+            all these words:
+            <input name = as_q type = "text">
+            <br><br>
+            this exact word or phrase:
+            <input name = as_epq type="text">
+            <br><br>
+            any of these words:
+            <input name = as_oq type="text">
+
+            <br><br>
+            none of these words:
+            <input name = as_eq type="text">
+            <br><br>
+            <input type="submit" value = "Advanced Search" class = "adsb">
+        </form>
+    </body>
+</html>
