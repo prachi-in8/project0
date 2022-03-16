@@ -1,0 +1,95 @@
+a, a:visited, a:hover, a:active {
+    font-family: Sans-serif;
+    text-decoration:none;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+a:hover
+{
+    font-family: Sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 0.7px;
+    font-size: 14px;
+
+}
+
+.search_bar
+{
+    border-radius: 10px;
+    margin: 30px;
+    height: 30px;
+    width: 500px;
+    color: black;
+    padding: 5px;
+    border-color: rgb(230, 224, 224);
+}
+
+.search_bar:hover, .search_bar:active
+{
+    box-shadow: 5px 5px 5px 5px rgb(196, 194, 194);
+}
+
+#googlelogo
+{
+    margin-left: 580px;
+    margin-top: 100px;
+    height :180px;
+    width: 360px;
+}
+
+.center {
+    display: block;
+    width: 40%;
+  }
+
+.searchb
+{
+    padding: 10px;
+    background-color: rgb(250, 245, 245);
+    border-width: 0px;
+    border-color: lightgrey;
+    border-radius: 5px;
+}
+
+.searchb:hover, .searchb:active
+{
+    border-width: 0.5px;
+    border-color: rgb(204, 201, 201);
+}
+
+.search_part
+{
+    margin-left: 500px;
+}
+
+#search_buttons
+{
+    margin-left: 100px;
+}
+
+.adsb
+{
+    background-color: #4d90fe;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    width: 150px;
+}
+
+
+
+
+
+.ad_bar
+{
+    color :black;
+    border-color: rgb(204, 201, 201);
+}
+
+.ad_bar:hover, .ad_bar:active{
+    border-color: blue;
+}
+
